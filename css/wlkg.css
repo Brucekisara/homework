@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 999px;
+	height: 100px;
+	background: white;
+	margin: 0 auto;
+}
+
+.header .logo {
+	width: 250px;
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 39px;
+}
+
+.header .search {
+	width: 230px;
+	height: 30px;
+	float: right;
+	margin-right: 18px;
+	margin-top: 39px;
+	border: 1px solid #f1f1f1f1;
+}
+
+.header .search input[type=text] {
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.header .search input[type=submit] {
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../img/search.png) no-repeat center center;
+	float: right;
+}
+
+.nav {
+	width: 999px;
+	height: 60px;
+	background: black;
+	margin: 0 auto;
+}
+
+.nav ul {
+	width: 999px;
+	height: 60px;
+	padding-left: 27px;
+	box-sizing: border-box;
+}
+
+.nav ul li {
+	width: 119px;
+	height: 60px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 60px;
+	border-right: 1px solid #494949;
+}
+
+.nav ul li:last-child {
+	border-right: none;
+}
+
+.nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.banner {
+	width: 999px;
+	height: 465px;
+	margin: 0 auto;
+}
+
+.left{
+	width: 999px;
+	height: 240px;
+	background: white;
+	margin: 0 auto;
+}
+
+.left h3{
+	font:18px "microsoft yahei";
+	margin-top: 37px;
+	margin-left: 19px;
+}
+
+.left ul{
+	margin-top: 28px;
+	margin-left: 34px;
+}
+
+.left ul li{
+	opacity: 0.5;
+	width: 500px;
+	font: 12px "microsoft yahei";	
+	float: left;
+	line-height: 20px;
+	color: #666666;
+}
+.left .mid{
+	width: 243px;
+	height: 240px;
+	float: left;
+	background: #EEEEEE;
+	margin-top: -200px;
+}
+.left .mid h3{
+	font:18px "microsoft yahei";
+	margin-top: 37px;
+	margin-left: 52px;
+}
+.left .mid p1{
+	font:12px "microsoft yahei";
+	margin-top: 50px;
+	margin-left: 52px;
+}
+.left .mid p2{
+	font:12px "microsoft yahei";
+	margin-top: 50px;
+	margin-left: 52px;
+}
+.left .mid p3{
+	font:12px "microsoft yahei";
+	margin-top: 50px;
+	margin-left: 52px;
+}
+.left .mid p4{
+	font:12px "microsoft yahei";
+	margin-top: 50px;
+	margin-left: 52px;
+}
